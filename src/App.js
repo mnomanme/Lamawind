@@ -1,10 +1,12 @@
 import './App.css';
+import { Home } from './pages/Home/Home';
 
 const App = () => {
 	return (
-		<div className="App">
+		<>
 			<h1>This is Mala Shop</h1>
-		</div>
+			<Home />
+		</>
 	);
 };
 
