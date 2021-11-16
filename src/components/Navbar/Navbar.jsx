@@ -1,7 +1,6 @@
+import styled from 'styled-components';
 import { Badge } from '@material-ui/core';
 import { Search, ShoppingCartOutlined } from '@material-ui/icons';
-import React from 'react';
-import styled from 'styled-components';
 
 export const Navbar = () => {
 	const Container = styled.div`
