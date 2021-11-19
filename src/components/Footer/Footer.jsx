@@ -119,7 +119,7 @@ export const Footer = () => {
 				<ContactItem>
 					<MailOutline style={{ marginRight: '10px' }} /> contact@lamawind.dev
 				</ContactItem>
-				<Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+				<Payment src="https://i.ibb.co/1258GfC/payment.png" />
 			</Right>
 		</Container>
 	);
