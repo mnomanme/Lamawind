@@ -1,21 +1,21 @@
 export const sliderItems = [
 	{
 		id: 2,
-		img: 'https://i.ibb.co/cXFnLLV/3.png',
+		img: 'https://i.ibb.co/bbLdsLD/2.png',
 		title: 'LOUNGEWEAR LOVE',
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: 'fbf0f4',
 	},
 	{
 		id: 1,
-		img: 'https://i.ibb.co/XsdmR2c/1.png',
+		img: 'https://i.ibb.co/CW6FFbz/3.png',
 		title: 'SUMMER SALE',
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: 'f5fafd',
 	},
 	{
 		id: 3,
-		img: 'https://i.ibb.co/DG69bQ4/2.png',
+		img: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGZhc2hpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
 		title: 'AUTUMN COLLECTION',
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: 'fcf1ed',
@@ -25,17 +25,17 @@ export const sliderItems = [
 export const categories = [
 	{
 		id: 1,
-		img: 'https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		img: 'https://i.ibb.co/LYcHBgf/pexels-photo-5480696.jpg',
 		title: 'SHIRT STYLE!',
 	},
 	{
 		id: 2,
-		img: 'https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		img: 'https://i.ibb.co/nDJK7th/pexels-photo-5886041.jpg',
 		title: 'LOUNGEWEAR LOVE',
 	},
 	{
 		id: 3,
-		img: 'https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+		img: 'https://i.ibb.co/9tB2kbF/pexels-photo-2983464.jpg',
 		title: 'LIGHT JACKETS',
 	},
 ];
@@ -43,34 +43,34 @@ export const categories = [
 export const popularProducts = [
 	{
 		id: 1,
-		img: 'https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png',
+		img: 'https://i.ibb.co/CHMBhcg/1170x1470-BS-2016-05-132-front.png',
 	},
 	{
 		id: 2,
-		img: 'https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388',
+		img: 'https://i.ibb.co/vVj0WSH/Rocket-Vintage-Chill-Cap-66374-1-lg.png',
 	},
 	{
 		id: 3,
-		img: 'https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png',
+		img: 'https://i.ibb.co/gMwF0Fp/UCS319-1-YOT-F010-O-S-182-SLF.png',
 	},
 	{
 		id: 4,
-		img: 'https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png',
+		img: 'https://i.ibb.co/G9nC047/Mens-Jake-Guitar-Vintage-Crusher-Tee-68382-1-lg.png',
 	},
 	{
 		id: 5,
-		img: 'https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png',
+		img: 'https://i.ibb.co/bN3nkgH/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-4-2.png',
 	},
 	{
 		id: 6,
-		img: 'https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png',
+		img: 'https://i.ibb.co/Y3bQYr9/Angela-Natural-Tee.png',
 	},
 	{
 		id: 7,
-		img: 'https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png',
+		img: 'https://i.ibb.co/dtqbd9z/Women-Jacket-PNG-High-Quality-Image.png',
 	},
 	{
 		id: 8,
-		img: 'https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png',
+		img: 'https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
 	},
 ];
