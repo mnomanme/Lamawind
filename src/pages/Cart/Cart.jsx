@@ -48,10 +48,6 @@ const Info = styled.div`
 	flex: 3;
 `;
 
-const Summary = styled.div`
-	flex: 1;
-`;
-
 const Product = styled.div`
 	display: flex;
 	justify-content: space-between;
@@ -94,11 +90,60 @@ const ProductColor = styled.div`
 
 const ProductSize = styled.span``;
 
-const ProductAmountContainer = styled.div``;
+const ProductAmountContainer = styled.div`
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+`;
 
-const ProductAmount = styled.div``;
+const ProductAmount = styled.div`
+	font-size: 24px;
+	margin: 5px;
+`;
 
-const ProductPrice = styled.div``;
+const ProductPrice = styled.div`
+	font-size: 30px;
+	font-weight: 200;
+`;
+
+const Hr = styled.hr`
+	background-color: #eee;
+	border: none;
+	height: 1px;
+`;
+
+const Summary = styled.div`
+	flex: 1;
+	border: 0.5px solid lightgray;
+	border-radius: 10px;
+	padding: 20px;
+	height: 50vh;
+`;
+
+const SummaryTitle = styled.h1`
+	font-weight: 200;
+`;
+
+const SummaryItem = styled.div`
+	margin: 30px 0px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: ${(props) => props.type === 'total' && '500'};
+	font-size: ${(props) => props.type === 'total' && '24px'};
+`;
+
+const SummaryItemText = styled.span``;
+
+const SummaryItemPrice = styled.span``;
+
+const Button = styled.button`
+	width: 100%;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+`;
 
 export const Cart = () => {
 	return (
@@ -119,7 +164,7 @@ export const Cart = () => {
 					<Info>
 						<Product>
 							<ProductDetail>
-								<Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+								<Image src="https://i.ibb.co/CP5z3Q0/black-shoe.png" />
 								<Details>
 									<ProductName>
 										<b>Product:</b> JESSIE THUNDER SHOES
@@ -142,8 +187,53 @@ export const Cart = () => {
 								<ProductPrice>$20</ProductPrice>
 							</PriceDetail>
 						</Product>
+						<Hr />
+						<Product>
+							<ProductDetail>
+								<Image src="https://i.ibb.co/nRsbcST/philr-tshirt.png" />
+								<Details>
+									<ProductName>
+										<b>Product:</b> HAKURA T-SHIRT
+									</ProductName>
+									<ProductId>
+										<b>ID:</b> 87458704
+									</ProductId>
+									<ProductColor color="gray" />
+									<ProductSize>
+										<b>Size:</b> M
+									</ProductSize>
+								</Details>
+							</ProductDetail>
+							<PriceDetail>
+								<ProductAmountContainer>
+									<Add />
+									<ProductAmount>2</ProductAmount>
+									<Remove />
+								</ProductAmountContainer>
+								<ProductPrice>$20</ProductPrice>
+							</PriceDetail>
+						</Product>
 					</Info>
-					<Summary>Summary</Summary>
+					<Summary>
+						<SummaryTitle>ORDER SUMMARY</SummaryTitle>
+						<SummaryItem>
+							<SummaryItemText>Subtotal</SummaryItemText>
+							<SummaryItemPrice>$ 100</SummaryItemPrice>
+						</SummaryItem>
+						<SummaryItem>
+							<SummaryItemText>Estimated Shipping</SummaryItemText>
+							<SummaryItemPrice>$ 5.90</SummaryItemPrice>
+						</SummaryItem>
+						<SummaryItem>
+							<SummaryItemText>Shipping Discount</SummaryItemText>
+							<SummaryItemPrice>$ -5.90</SummaryItemPrice>
+						</SummaryItem>
+						<SummaryItem type="total">
+							<SummaryItemText>Total</SummaryItemText>
+							<SummaryItemPrice>$ 990</SummaryItemPrice>
+						</SummaryItem>
+						<Button>CHECKOUT NOW</Button>
+					</Summary>
 				</Bottom>
 			</Wrapper>
 			<Footer />
